@@ -42,7 +42,7 @@ const Weather = () => {
         Search
       </button>
 
-      {loading && <p>Loadin Data. . .</p>}
+   {loading && <p>Loading data...</p>}
 
       {weather && (
         <div className="weather-cards">
